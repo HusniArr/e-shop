@@ -35,19 +35,19 @@ const FeaturedProducts = ({type}) => {
             oldPrice:15,
             price:12
         },
-        {
-            id:5,
-            img:'https://ae01.alicdn.com/kf/HTB113hiGH9YBuNjy0Fgq6AxcXXaT/2018-Winter-Plus-Velvet-Thickening-Children-s-Warm-Clothing-Boys-Girls-Short-PU-Leather-Jacket-Kids.jpg',
-            title:'Leather Jacket Kids',
-            oldPrice:15,
-            price:12
-        }
+        // {
+        //     id:5,
+        //     img:'https://ae01.alicdn.com/kf/HTB113hiGH9YBuNjy0Fgq6AxcXXaT/2018-Winter-Plus-Velvet-Thickening-Children-s-Warm-Clothing-Boys-Girls-Short-PU-Leather-Jacket-Kids.jpg',
+        //     title:'Leather Jacket Kids',
+        //     oldPrice:15,
+        //     price:12
+        // }
     ];
 
   return (
     <div className='featuredProducts'>
         <div className='top'>
-            <h1>{type} Products</h1>
+            <h1>{type} product</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates omnis libero hic quasi autem culpa! Error, autem obcaecati.</p>
         </div>
         <div className='bottom'>
