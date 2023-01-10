@@ -27,13 +27,13 @@ const nextSlide = ()=>{
             <img src={data[0]} />
             <img src={data[1]} />
             <img src={data[2]} />
-            <div className="icons">
-                <div className="icon" onClick={prevSlide}>
-                    <WestOutlinedIcon/>
-                </div>
-                <div className="icon" onClick={nextSlide}>
-                    <EastOutlinedIcon/>
-                </div>
+        </div>
+        <div className="icons">
+            <div className="icon" onClick={prevSlide}>
+                <WestOutlinedIcon/>
+            </div>
+            <div className="icon" onClick={nextSlide}>
+                <EastOutlinedIcon/>
             </div>
         </div>
     </div>
